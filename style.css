@@ -3,11 +3,10 @@ width: 100%;
 height: 100vh;
 
 background-image: url(../images/pizza10.png);
-/* background-size: contain; */
-
+background-size: cover;
 background-repeat: no-repeat;
-background-position: right ;
-
+background-position: center right;
+background-attachment: fixed;
 }
 nav{
     display: flex;
@@ -173,7 +172,7 @@ color: orangered;
 }
 .count_pages{
     width: 50%;
-    height: 200px;.
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,7 +428,6 @@ a{
 
     color: white;
 }
-
 
 
 
